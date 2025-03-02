@@ -1,0 +1,10 @@
+@lxpanel --profile LXDE
+@pcmanfm --desktop --profile LXDE
+@xscreensaver -no-splash
+@java -jar /root/MosqueDashboard.jar
+@unclutter
+@xset s off
+@xset s noblank
+@/root/change-date.sh
+@/root/mouse-emulation.sh
+
