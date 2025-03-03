@@ -8,6 +8,6 @@ do
     if [ "$str" != "" ]; then
       date -s "$str"
       pkill -f Mos
-      # hwclock -w
+      hwclock -w
     fi
 done
