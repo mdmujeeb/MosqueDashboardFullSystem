@@ -7,4 +7,4 @@
 @xset s noblank
 @/root/change-date.sh
 @/root/mouse-emulation.sh
-@hwclock --systohc -D --noadjfile --utc
+@hwclock -s --noadjfile -u
